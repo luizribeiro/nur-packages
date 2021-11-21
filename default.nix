@@ -16,4 +16,5 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   myhello = pkgs.callPackage ./pkgs/myhello { };
+  dokku-client = pkgs.callPackage ./pkgs/dokku-client { inherit pkgs; };
 }
