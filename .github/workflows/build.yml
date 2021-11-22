@@ -11,6 +11,15 @@ jobs:
   tests:
     strategy:
       matrix:
+        os:
+          - macos-10.15
+          - ubuntu-latest
+        nixPath:
+          - nixpkgs=channel:nixos-unstable
+          - nixpkgs=channel:nixpkgs-unstable
+          - nixpkgs=channel:nixos-21.05
+        cachixName:
+          - luizribeiro
         # Set this to notify the global nur package registry that changes are
         # available.
         #
@@ -18,15 +27,6 @@ jobs:
         # https://github.com/nix-community/NUR/blob/master/repos.json
         nurRepo:
           - <YOUR_REPO_NAME>
-        cachixName:
-          - luizribeiro
-        nixPath:
-          - nixpkgs=channel:nixos-unstable
-          - nixpkgs=channel:nixpkgs-unstable
-          - nixpkgs=channel:nixos-21.05
-        os:
-          - macos-10.15
-          - ubuntu-latest
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout repository
