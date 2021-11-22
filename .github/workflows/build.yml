@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: "10 3 * * *"
 jobs:
-  tests:
+  build:
     strategy:
       matrix:
         os:
