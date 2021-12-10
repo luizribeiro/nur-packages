@@ -10,10 +10,6 @@ stdenv.mkDerivation {
     sha256 = "UQ/CSAlAOMn2tGOlkTQFLl97xZdqDc3XBICF1Az91sY=";
   };
 
-  buildInputs = [
-    pkgs.bash_4
-  ];
-
   installPhase = ''
     mkdir -p $out/bin
     cp contrib/dokku_client.sh $out/bin/dokku
