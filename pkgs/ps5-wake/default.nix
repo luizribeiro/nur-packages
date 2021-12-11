@@ -11,11 +11,16 @@ stdenv.mkDerivation {
   };
 
   buildInputs = [
-    pkgs.gcc
+    # compile and statically link using musl-gcc, since I run this
+    # binary from docker which doesn't have access to glibc from the
+    # nixos host
+    pkgs.musl
   ];
 
+  buildPhase = ''
+    make CC="musl-gcc -static"
+  '';
   installPhase = ''
-    make
-    make install PREFIX=$out
+    make install PREFIX=$out CC="musl-gcc -static"
   '';
 }
