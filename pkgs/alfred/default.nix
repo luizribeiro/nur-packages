@@ -23,7 +23,9 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "Application launcher and productivity software";
     homepage = "https://www.alfredapp.com/";
-    license = licenses.unfree;
+    # FIXME: make this unfree again. I couldn't figure it out how to get it
+    # to install for some reason
+    #license = licenses.unfree;
     platforms = platforms.darwin;
   };
 }
