@@ -6,6 +6,7 @@
   overlays = import ./overlays;
 
   alfred = pkgs.callPackage ./pkgs/alfred { };
+  bedrock-viz = pkgs.callPackage ./pkgs/bedrock-viz { inherit pkgs; };
   dokku-client = pkgs.callPackage ./pkgs/dokku-client { inherit pkgs; };
   influx-cli = pkgs.callPackage ./pkgs/influx-cli { };
   ps5-wake = pkgs.callPackage ./pkgs/ps5-wake { inherit pkgs; };
