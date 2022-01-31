@@ -1,4 +1,4 @@
-{ stdenv, pkgs, ... }:
+{ stdenv, pkgs, lib, ... }:
 
 stdenv.mkDerivation {
   name = "virtualhere-client";
