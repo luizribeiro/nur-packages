@@ -7,7 +7,7 @@ stdenv.mkDerivation {
     owner = "bedrock-viz";
     repo = "bedrock-viz";
     rev = "af672b9182bcdb338351a252bdba2dff8ac190b4";
-    sha256 = "sha256-sICYtdBaXh95nerYfeqhMFmLa5eepgKmES4WCxKXW/0=";
+    sha256 = "sha256-FzYwEwZCtAraQO9f7mwKa3/Mym3an2pudIPjaMuNfyQ=";
     fetchSubmodules = true;
     deepClone = true;
   };
