@@ -3,6 +3,10 @@
 stdenv.mkDerivation {
   name = "virtualhere-client";
 
+  meta = with lib; {
+    platforms = [ "x86_64-linux" ];
+  };
+
   src = pkgs.fetchurl {
     url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64";
     sha256 = "sha256-Uk24LEal9PEJM4pEOc4HHj65rudW/HCIuIXc1NWetVk=";
