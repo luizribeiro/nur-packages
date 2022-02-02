@@ -4,13 +4,24 @@ stdenv.mkDerivation {
   name = "virtualhere-client";
 
   meta = with lib; {
-    platforms = [ "x86_64-linux" ];
+    platforms = [ "x86_64-linux" "aarch64-linux" ];
   };
 
-  src = pkgs.fetchurl {
-    url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64";
-    sha256 = "sha256-Uk24LEal9PEJM4pEOc4HHj65rudW/HCIuIXc1NWetVk=";
-  };
+  src =
+    let
+      inherit (stdenv.hostPlatform) system;
+      selectSystem = attrs: attrs.${system} or (throw "Unsupported system: ${system}");
+    in
+    pkgs.fetchurl (selectSystem {
+      x86_64-linux = {
+        url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64";
+        sha256 = "sha256-Uk24LEal9PEJM4pEOc4HHj65rudW/HCIuIXc1NWetVk=";
+      };
+      aarch64-linux = {
+        url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientarm64";
+        sha256 = "sha256-1p7lxAhvI954xC67pXaJ9vEEwhxg0eYKrVD6PkqIGBg=";
+      };
+    });
 
   unpackPhase = ":";
 
