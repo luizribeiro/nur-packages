@@ -11,4 +11,5 @@
   influx-cli = pkgs.callPackage ./pkgs/influx-cli { };
   ps5-wake = pkgs.callPackage ./pkgs/ps5-wake { inherit pkgs; };
   virtualhere-client = pkgs.callPackage ./pkgs/virtualhere-client { inherit pkgs; };
+  virtualhere-server = pkgs.callPackage ./pkgs/virtualhere-server { inherit pkgs; };
 }
