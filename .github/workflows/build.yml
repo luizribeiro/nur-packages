@@ -16,8 +16,6 @@ jobs:
           - ubuntu-latest
         nixPath:
           - nixpkgs=channel:nixos-unstable
-          - nixpkgs=channel:nixos-unstable
-          - nixpkgs=channel:nixos-21.11
         cachixName:
           - luizribeiro
         # Set this to notify the global nur package registry that changes are
