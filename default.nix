@@ -1,10 +1,4 @@
-{ pkgs ? import <nixpkgs> { }
-, uptix ? import
-    (builtins.fetchTarball
-      "https://github.com/luizribeiro/uptix/archive/master.tar.gz"
-    )
-    ./uptix.lock
-} @ inputs:
+{ pkgs ? import <nixpkgs> { }, uptix ? import ./uptix.nix } @ inputs:
 
 {
   lib = import ./lib { inherit pkgs; };

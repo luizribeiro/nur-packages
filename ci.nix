@@ -9,13 +9,7 @@
 # then your CI will be able to build and cache only those packages for
 # which this is possible.
 
-{ pkgs ? import <nixpkgs> { }
-, uptix ? import
-    (builtins.fetchTarball
-      "https://github.com/luizribeiro/uptix/archive/master.tar.gz"
-    )
-    ./uptix.lock
-} @ inputs:
+{ pkgs ? import <nixpkgs> { }, uptix ? import ./uptix.nix } @ inputs:
 
 with builtins;
 let
