@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> { } }:
+{ pkgs ? import <nixpkgs> { }, uptix ? null }:
 
 {
   lib = import ./lib { inherit pkgs; };
