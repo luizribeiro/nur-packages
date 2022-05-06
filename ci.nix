@@ -9,7 +9,13 @@
 # then your CI will be able to build and cache only those packages for
 # which this is possible.
 
-{ pkgs ? import <nixpkgs> { } }:
+{ pkgs ? import <nixpkgs> { }
+, uptix ? import
+    (builtins.fetchTarball
+      "https://github.com/luizribeiro/uptix/archive/master.tar.gz"
+    )
+    ./uptix.lock
+} @ inputs:
 
 with builtins;
 let
@@ -47,7 +53,7 @@ let
 
   outputsOf = p: map (o: p.${o}) p.outputs;
 
-  nurAttrs = import ./default.nix { inherit pkgs; };
+  nurAttrs = import ./default.nix { inherit pkgs uptix; };
 
   nurPkgs =
     flattenPkgs
