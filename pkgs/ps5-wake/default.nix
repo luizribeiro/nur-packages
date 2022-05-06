@@ -1,14 +1,13 @@
-{ stdenv, pkgs, lib, ... }:
+{ stdenv, pkgs, lib, uptix, ... }:
 
 stdenv.mkDerivation {
   name = "ps5-wake";
 
-  src = pkgs.fetchFromGitHub {
+  src = pkgs.fetchFromGitHub (uptix.githubBranch {
     owner = "iharosi";
     repo = "ps5-wake";
-    rev = "7699c937c834e49a87d72870e212b7999bffd8b6";
-    sha256 = "sha256-N7uUpMB8g3g6shTjw2MmvzsoCZ+beEIUi1zpafIj7+U=";
-  };
+    branch = "master";
+  });
 
   meta = with lib; {
     platforms = platforms.linux;

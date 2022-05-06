@@ -1,4 +1,10 @@
 {
+  "$GITHUB_BRANCH$:iharosi/ps5-wake:master": {
+    "owner": "iharosi",
+    "repo": "ps5-wake",
+    "rev": "7699c937c834e49a87d72870e212b7999bffd8b6",
+    "sha256": "1rgg4gr6ksawica44y4vkw4jhfxz4riw7qqln8x7i0vwq2j99frp"
+  },
   "$GITHUB_RELEASE$:dokku/dokku": {
     "owner": "dokku",
     "repo": "dokku",
