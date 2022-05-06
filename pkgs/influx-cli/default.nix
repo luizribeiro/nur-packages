@@ -1,18 +1,16 @@
-{ buildGoModule, fetchFromGitHub, lib, ... }:
+{ buildGoModule, fetchFromGitHub, lib, uptix, ... }:
 
-buildGoModule rec {
-  pname = "influx-cli";
-  version = "2.2.1";
-
-  src = fetchFromGitHub {
+let
+  release = uptix.githubRelease {
     owner = "influxdata";
     repo = "influx-cli";
-    rev = "v${version}";
-    sha256 = "sha256-9FUchI93xLpQwtpbr5S3GfVrApHaemwbnRPIfAWmG6Y=";
   };
-
-  vendorSha256 = "sha256-G9S7gAuDNwxADekOr9AaXDkPDSXVlc9Fi4gdrKdy0rI=";
-
+in
+buildGoModule rec {
+  pname = "influx-cli";
+  version = uptix.version release;
+  src = fetchFromGitHub release;
+  vendorSha256 = "sha256-Boz1G8g0fjjlflxZh4V8sd/v0bE9Oy3DpqywOpKxjd0=";
   meta = with lib; {
     homepage = "https://github.com/influxdata/influx-cli";
     description = "CLI for managing resources in InfluxDB v2";

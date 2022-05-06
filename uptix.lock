@@ -4,5 +4,11 @@
     "repo": "dokku",
     "rev": "v0.27.0",
     "sha256": "12fyy379b556l686vq1nqdgsjfw383wq1k5ahsjq3yg8dv0ci5rh"
+  },
+  "$GITHUB_RELEASE$:influxdata/influx-cli": {
+    "owner": "influxdata",
+    "repo": "influx-cli",
+    "rev": "v2.3.0",
+    "sha256": "0sk180ywabhwk5z6alxaklfsiy6d49m1g7zfhvzzbk6jdg9cswwb"
   }
 }
