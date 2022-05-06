@@ -1,15 +1,15 @@
-{ stdenv, pkgs, ... }:
+{ stdenv, pkgs, uptix, ... }:
 
-stdenv.mkDerivation {
-  name = "dokku-client";
-
-  src = pkgs.fetchFromGitHub {
+let
+  release = uptix.githubRelease {
     owner = "dokku";
     repo = "dokku";
-    rev = "e0c2e7846a551c21fab7595737ae3b988d59578e";
-    sha256 = "UQ/CSAlAOMn2tGOlkTQFLl97xZdqDc3XBICF1Az91sY=";
   };
-
+in
+stdenv.mkDerivation {
+  pname = "dokku-client";
+  version = uptix.version release;
+  src = pkgs.fetchFromGitHub release;
   installPhase = ''
     mkdir -p $out/bin
     cp contrib/dokku_client.sh $out/bin/dokku
