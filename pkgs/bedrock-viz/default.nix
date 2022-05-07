@@ -1,16 +1,15 @@
-{ stdenv, pkgs, lib, ... }:
+{ uptix, stdenv, pkgs, lib, ... }:
 
 stdenv.mkDerivation {
   name = "bedrock-viz";
 
-  src = pkgs.fetchFromGitHub {
+  src = pkgs.fetchFromGitHub (uptix.githubBranch {
     owner = "bedrock-viz";
     repo = "bedrock-viz";
-    rev = "af672b9182bcdb338351a252bdba2dff8ac190b4";
-    sha256 = "sha256-FzYwEwZCtAraQO9f7mwKa3/Mym3an2pudIPjaMuNfyQ=";
+    branch = "master";
     fetchSubmodules = true;
     deepClone = true;
-  };
+  });
 
   meta = with lib; {
     platforms = platforms.linux;

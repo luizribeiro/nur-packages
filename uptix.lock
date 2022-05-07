@@ -1,20 +1,38 @@
 {
-  "$GITHUB_BRANCH$:iharosi/ps5-wake:master": {
+  "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
+    "owner": "bedrock-viz",
+    "repo": "bedrock-viz",
+    "rev": "1991b74fa3ba96fea6c64d8f2a595fdff5a3b9f0",
+    "sha256": "0g88rbds8nrfhim22cshxmqsx17a355ffxj9ryyvh5d3105fq8cd",
+    "fetchSubmodules": true,
+    "deepClone": true,
+    "leaveDotGit": false
+  },
+  "$GITHUB_BRANCH$:iharosi/ps5-wake:master$": {
     "owner": "iharosi",
     "repo": "ps5-wake",
     "rev": "7699c937c834e49a87d72870e212b7999bffd8b6",
-    "sha256": "1rgg4gr6ksawica44y4vkw4jhfxz4riw7qqln8x7i0vwq2j99frp"
+    "sha256": "1rgg4gr6ksawica44y4vkw4jhfxz4riw7qqln8x7i0vwq2j99frp",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
   },
-  "$GITHUB_RELEASE$:dokku/dokku": {
+  "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
     "rev": "v0.27.0",
-    "sha256": "12fyy379b556l686vq1nqdgsjfw383wq1k5ahsjq3yg8dv0ci5rh"
+    "sha256": "12fyy379b556l686vq1nqdgsjfw383wq1k5ahsjq3yg8dv0ci5rh",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
   },
-  "$GITHUB_RELEASE$:influxdata/influx-cli": {
+  "$GITHUB_RELEASE$:influxdata/influx-cli$": {
     "owner": "influxdata",
     "repo": "influx-cli",
     "rev": "v2.3.0",
-    "sha256": "0sk180ywabhwk5z6alxaklfsiy6d49m1g7zfhvzzbk6jdg9cswwb"
+    "sha256": "0sk180ywabhwk5z6alxaklfsiy6d49m1g7zfhvzzbk6jdg9cswwb",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
   }
 }
