@@ -20,8 +20,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.27.0",
-    "sha256": "12fyy379b556l686vq1nqdgsjfw383wq1k5ahsjq3yg8dv0ci5rh",
+    "rev": "v0.27.3",
+    "sha256": "0af0nlmr3mxlffb595br3dx2z041ww4c6zaa1vadlqy78j98mwfz",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
