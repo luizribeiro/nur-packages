@@ -1,9 +1,18 @@
 {
+  "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
+    "owner": "OpenSprinkler",
+    "repo": "OpenSprinkler-Firmware",
+    "rev": "3c388712494393498b9fbdb2fa2725dc189f0a32",
+    "sha256": "1yzli0xxibhxvs25zsnm289ncwl2yv2sf5v7gh664iwg2n3khd9s",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
   "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
-    "rev": "1991b74fa3ba96fea6c64d8f2a595fdff5a3b9f0",
-    "sha256": "0g88rbds8nrfhim22cshxmqsx17a355ffxj9ryyvh5d3105fq8cd",
+    "rev": "6fa469ec145ccb10f630ae535eae29d5ccff5272",
+    "sha256": "12ick2zfknd0kpik8qkwq8s0285cfxkbahy97c44iy3zvnqyc4z3",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -20,8 +29,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.27.3",
-    "sha256": "0af0nlmr3mxlffb595br3dx2z041ww4c6zaa1vadlqy78j98mwfz",
+    "rev": "v0.27.10",
+    "sha256": "15j16bmivwjvas6q09rkvw409hda5nirq2znpxcm92m0f1dg1akk",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
