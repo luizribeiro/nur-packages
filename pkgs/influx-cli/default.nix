@@ -10,7 +10,7 @@ buildGoModule rec {
   pname = "influx-cli";
   version = uptix.version release;
   src = fetchFromGitHub release;
-  vendorSha256 = "sha256-Boz1G8g0fjjlflxZh4V8sd/v0bE9Oy3DpqywOpKxjd0=";
+  vendorSha256 = "sha256-TnPvozwp7bU4BRu3gYce1jyuMClo5YiMGskXZvZqstA=";
   meta = with lib; {
     homepage = "https://github.com/influxdata/influx-cli";
     description = "CLI for managing resources in InfluxDB v2";
