@@ -2,8 +2,8 @@
   "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
     "owner": "OpenSprinkler",
     "repo": "OpenSprinkler-Firmware",
-    "rev": "3c388712494393498b9fbdb2fa2725dc189f0a32",
-    "sha256": "1yzli0xxibhxvs25zsnm289ncwl2yv2sf5v7gh664iwg2n3khd9s",
+    "rev": "85e1f80ab86a848ce07eb33a9707e8917dece458",
+    "sha256": "117xw0gawlbsjyb8mbgravrkf3x9xy9gpi3y6hv83v3mbiq899cs",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -11,8 +11,8 @@
   "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
-    "rev": "6fa469ec145ccb10f630ae535eae29d5ccff5272",
-    "sha256": "12ick2zfknd0kpik8qkwq8s0285cfxkbahy97c44iy3zvnqyc4z3",
+    "rev": "72a6f9cf90448ada29fc4cb3c228f0f6d16c7dff",
+    "sha256": "0mxf4alafqf5c8y11i0jdszxzl4jimxmwy8jxkwlh869c7hpdr7f",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -29,8 +29,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.27.10",
-    "sha256": "15j16bmivwjvas6q09rkvw409hda5nirq2znpxcm92m0f1dg1akk",
+    "rev": "v0.29.3",
+    "sha256": "0yy6nbrbxd1qg86fmap74y6z6d9avlpjj0lm831s6hg9xavi3d27",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -38,8 +38,8 @@
   "$GITHUB_RELEASE$:influxdata/influx-cli$": {
     "owner": "influxdata",
     "repo": "influx-cli",
-    "rev": "v2.3.0",
-    "sha256": "0sk180ywabhwk5z6alxaklfsiy6d49m1g7zfhvzzbk6jdg9cswwb",
+    "rev": "v2.6.1",
+    "sha256": "1bcy0b254p98j7mfmqws3yhzhk9jcnzm85ciqhb16c3ab7ygcyln",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
