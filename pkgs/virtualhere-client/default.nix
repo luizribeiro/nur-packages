@@ -15,7 +15,7 @@ stdenv.mkDerivation {
     pkgs.fetchurl (selectSystem {
       x86_64-linux = {
         url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64";
-        sha256 = "sha256-Uk24LEal9PEJM4pEOc4HHj65rudW/HCIuIXc1NWetVk=";
+        sha256 = "sha256-VBpyhIlHTYJTI5A/H4b1XHNd7RgS84RFYJG8oWRqmak=";
       };
       aarch64-linux = {
         url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientarm64";
