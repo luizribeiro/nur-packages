@@ -2,8 +2,8 @@
   "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
     "owner": "OpenSprinkler",
     "repo": "OpenSprinkler-Firmware",
-    "rev": "85e1f80ab86a848ce07eb33a9707e8917dece458",
-    "sha256": "117xw0gawlbsjyb8mbgravrkf3x9xy9gpi3y6hv83v3mbiq899cs",
+    "rev": "5970a3ab35f623ab5fd7cf44ce1ca469298dc463",
+    "sha256": "14r18zm1isssm2mqy43h17j157w4k6q13m1gnb714f0viiqmvkmx",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -11,8 +11,8 @@
   "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
-    "rev": "72a6f9cf90448ada29fc4cb3c228f0f6d16c7dff",
-    "sha256": "0mxf4alafqf5c8y11i0jdszxzl4jimxmwy8jxkwlh869c7hpdr7f",
+    "rev": "cd51bf9b13691ba609a00b1fe5d7010a8dcc61e8",
+    "sha256": "0hz8wjjhgsxk52af5s712wx9f4q7949xyr1w96dqzvmqnqa4n677",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -26,11 +26,20 @@
     "deepClone": false,
     "leaveDotGit": false
   },
+  "$GITHUB_BRANCH$:luizribeiro/openscad-LSP:master$": {
+    "owner": "luizribeiro",
+    "repo": "openscad-LSP",
+    "rev": "e94bed00b88dc2d68509bd7dc43c1e39a293db6f",
+    "sha256": "0pcbqzvyk2cg2sa1pvwngwl91z42v14jfi6lzhpjsqfa9jl59dca",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.29.3",
-    "sha256": "0yy6nbrbxd1qg86fmap74y6z6d9avlpjj0lm831s6hg9xavi3d27",
+    "rev": "v0.30.0",
+    "sha256": "1b5hgy8zkn1nwr14wmcglpnqrvbzg4k9mzbnry2cyrl19bkbivq0",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
