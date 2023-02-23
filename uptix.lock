@@ -1,4 +1,13 @@
 {
+  "$GITHUB_BRANCH$:Leathong/openscad-LSP:master$": {
+    "owner": "Leathong",
+    "repo": "openscad-LSP",
+    "rev": "dcbff215cb59bddd051ca4186d107a916360f585",
+    "sha256": "0pcbqzvyk2cg2sa1pvwngwl91z42v14jfi6lzhpjsqfa9jl59dca",
+    "fetchSubmodules": false,
+    "deepClone": false,
+    "leaveDotGit": false
+  },
   "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
     "owner": "OpenSprinkler",
     "repo": "OpenSprinkler-Firmware",
@@ -26,20 +35,11 @@
     "deepClone": false,
     "leaveDotGit": false
   },
-  "$GITHUB_BRANCH$:luizribeiro/openscad-LSP:master$": {
-    "owner": "luizribeiro",
-    "repo": "openscad-LSP",
-    "rev": "e94bed00b88dc2d68509bd7dc43c1e39a293db6f",
-    "sha256": "0pcbqzvyk2cg2sa1pvwngwl91z42v14jfi6lzhpjsqfa9jl59dca",
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "leaveDotGit": false
-  },
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.30.0",
-    "sha256": "1b5hgy8zkn1nwr14wmcglpnqrvbzg4k9mzbnry2cyrl19bkbivq0",
+    "rev": "v0.30.1",
+    "sha256": "1bnp7bwi7khscxgdbyrmwiq476m4kcak4cpab4mr2by2gk8mhjdf",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false

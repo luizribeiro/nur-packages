@@ -3,7 +3,7 @@
 rustPlatform.buildRustPackage {
   name = "openscad-lsp";
   src = pkgs.fetchFromGitHub (uptix.githubBranch {
-    owner = "luizribeiro";
+    owner = "Leathong";
     repo = "openscad-LSP";
     branch = "master";
   });
