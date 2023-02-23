@@ -4,14 +4,9 @@
   lib = import ./lib { inherit pkgs; };
   modules = import ./modules;
   overlays = import ./overlays;
-
-  alfred = pkgs.callPackage ./pkgs/alfred inputs;
-  bedrock-viz = pkgs.callPackage ./pkgs/bedrock-viz inputs;
-  dokku-client = pkgs.callPackage ./pkgs/dokku-client inputs;
-  influx-cli = pkgs.callPackage ./pkgs/influx-cli inputs;
-  openscad-lsp = pkgs.callPackage ./pkgs/openscad-lsp inputs;
-  opensprinkler = pkgs.callPackage ./pkgs/opensprinkler inputs;
-  ps5-wake = pkgs.callPackage ./pkgs/ps5-wake inputs;
-  virtualhere-client = pkgs.callPackage ./pkgs/virtualhere-client inputs;
-  virtualhere-server = pkgs.callPackage ./pkgs/virtualhere-server inputs;
-}
+} // builtins.mapAttrs
+  (name: _type: pkgs.callPackage (./pkgs + "/${name}") inputs)
+  (pkgs.lib.filterAttrs
+    (_name: type: type == "directory")
+    (builtins.readDir ./pkgs)
+  )
