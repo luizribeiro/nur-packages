@@ -2,8 +2,8 @@
   "$GITHUB_BRANCH$:Leathong/openscad-LSP:master$": {
     "owner": "Leathong",
     "repo": "openscad-LSP",
-    "rev": "dcbff215cb59bddd051ca4186d107a916360f585",
-    "sha256": "0pcbqzvyk2cg2sa1pvwngwl91z42v14jfi6lzhpjsqfa9jl59dca",
+    "rev": "74cc08c1db4fd247bb4ab1c33aad3999be35a1ba",
+    "sha256": "0bwszg1p9mj0h96br6d9schd735cz2mvrn3jjbl3qii2iyspc3kg",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -11,8 +11,8 @@
   "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
     "owner": "OpenSprinkler",
     "repo": "OpenSprinkler-Firmware",
-    "rev": "5970a3ab35f623ab5fd7cf44ce1ca469298dc463",
-    "sha256": "14r18zm1isssm2mqy43h17j157w4k6q13m1gnb714f0viiqmvkmx",
+    "rev": "e9e04b006f82a29f2bd2317770a170402fe1bca6",
+    "sha256": "0v9lkf9lp3p443zvzjyxf7fdhy8609h8xgwakmkmhhkiz8vyfzsr",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -21,7 +21,7 @@
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
     "rev": "cd51bf9b13691ba609a00b1fe5d7010a8dcc61e8",
-    "sha256": "0hz8wjjhgsxk52af5s712wx9f4q7949xyr1w96dqzvmqnqa4n677",
+    "sha256": "1i06hwsik7wijv73c48bc7b98m4xlrjd2bjxkdhaklshp6cwq6bw",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -38,8 +38,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.30.1",
-    "sha256": "1bnp7bwi7khscxgdbyrmwiq476m4kcak4cpab4mr2by2gk8mhjdf",
+    "rev": "v0.30.7",
+    "sha256": "06g96499kx3ka541q0mnd5l9cz33wxk9jcxkilqb1v3znba00ydz",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -47,8 +47,8 @@
   "$GITHUB_RELEASE$:influxdata/influx-cli$": {
     "owner": "influxdata",
     "repo": "influx-cli",
-    "rev": "v2.6.1",
-    "sha256": "1bcy0b254p98j7mfmqws3yhzhk9jcnzm85ciqhb16c3ab7ygcyln",
+    "rev": "v2.7.3",
+    "sha256": "18prim4bn249m9jyxqx28x5y7x364403cwqd5lh1nlaycdzzn6w5",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
