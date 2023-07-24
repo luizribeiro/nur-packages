@@ -11,8 +11,8 @@
   "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
     "owner": "OpenSprinkler",
     "repo": "OpenSprinkler-Firmware",
-    "rev": "e9e04b006f82a29f2bd2317770a170402fe1bca6",
-    "sha256": "0v9lkf9lp3p443zvzjyxf7fdhy8609h8xgwakmkmhhkiz8vyfzsr",
+    "rev": "0e1985dadf2de63e3442554367fe0ef8cba29a22",
+    "sha256": "00w0rrli6x819dchsfpkh4saq8801qnrmf303w4vcbmlks22j1dc",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -20,8 +20,8 @@
   "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
-    "rev": "cd51bf9b13691ba609a00b1fe5d7010a8dcc61e8",
-    "sha256": "1i06hwsik7wijv73c48bc7b98m4xlrjd2bjxkdhaklshp6cwq6bw",
+    "rev": "6ea2724f7695452fcf4307bbf002ca456c293849",
+    "sha256": "1lrngpsk7la976wy5z6ljvf6h2hmkl3xr4ny6f70fxqcs811wph9",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -29,8 +29,8 @@
   "$GITHUB_BRANCH$:iharosi/ps5-wake:master$": {
     "owner": "iharosi",
     "repo": "ps5-wake",
-    "rev": "7699c937c834e49a87d72870e212b7999bffd8b6",
-    "sha256": "1rgg4gr6ksawica44y4vkw4jhfxz4riw7qqln8x7i0vwq2j99frp",
+    "rev": "1c8245dbba2d7261b9120921ae89415fa187d926",
+    "sha256": "0gszk9f6jh74d4p1f3zik32gfb7j3x9l74hjap9vrfx4045sg4zk",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -38,8 +38,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.30.7",
-    "sha256": "06g96499kx3ka541q0mnd5l9cz33wxk9jcxkilqb1v3znba00ydz",
+    "rev": "v0.30.9",
+    "sha256": "0jqw65zdm1mg0ff9dixa8z5gqf93w5j6446f9cjh3bhm8wv1rk53",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
