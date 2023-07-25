@@ -20,6 +20,7 @@ pkgs.appimageTools.wrapType2 {
   inherit name src;
 
   extraPkgs = p: (pkgs.appimageTools.defaultFhsEnvArgs.multiPkgs p) ++ (with p; [
+    gst_all_1.gst-plugins-bad
     libsoup
     mesa_drivers.osmesa
     webkitgtk
