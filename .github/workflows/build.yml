@@ -55,6 +55,8 @@ jobs:
             #      --drv-path --show-trace \
             #      -I nixpkgs=$(nix-instantiate --find-file nixpkgs) \
             #      -I $PWD
+      - name: List packages
+        run: nix-instantiate ci.nix -A cacheOutputs
       - name: Build nix packages
         run: nix shell -f '<nixpkgs>' nix-build-uncached -c nix-build-uncached ci.nix -A cacheOutputs
       - name: Trigger NUR update
