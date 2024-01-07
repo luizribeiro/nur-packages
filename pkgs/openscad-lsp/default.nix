@@ -13,5 +13,7 @@ rustPlatform.buildRustPackage {
     homepage = "https://github.com/Leathong/openscad-LSP";
     license = pkgs.lib.licenses.asl20;
     platforms = [ "x86_64-linux" "x86_64-darwin" ];
+    # FIXME: this isn't building because it uses some experimental features
+    broken = true;
   };
 }
