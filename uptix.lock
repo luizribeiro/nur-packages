@@ -2,17 +2,8 @@
   "$GITHUB_BRANCH$:Leathong/openscad-LSP:master$": {
     "owner": "Leathong",
     "repo": "openscad-LSP",
-    "rev": "74cc08c1db4fd247bb4ab1c33aad3999be35a1ba",
-    "sha256": "0bwszg1p9mj0h96br6d9schd735cz2mvrn3jjbl3qii2iyspc3kg",
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "leaveDotGit": false
-  },
-  "$GITHUB_BRANCH$:OpenSprinkler/OpenSprinkler-Firmware:master$": {
-    "owner": "OpenSprinkler",
-    "repo": "OpenSprinkler-Firmware",
-    "rev": "0e1985dadf2de63e3442554367fe0ef8cba29a22",
-    "sha256": "00w0rrli6x819dchsfpkh4saq8801qnrmf303w4vcbmlks22j1dc",
+    "rev": "a968de2ab283a06923aa30e103de1cc50f99712d",
+    "sha256": "0ljlinjlff6gg8r6jcrkp3y9n6y42gb3w3ny3x0gixc4qybz21wa",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -20,8 +11,8 @@
   "$GITHUB_BRANCH$:bedrock-viz/bedrock-viz:master$fd": {
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
-    "rev": "6ea2724f7695452fcf4307bbf002ca456c293849",
-    "sha256": "1lrngpsk7la976wy5z6ljvf6h2hmkl3xr4ny6f70fxqcs811wph9",
+    "rev": "b85a201caef417e2c30faa6d3590444f9f4edf1f",
+    "sha256": "0pakx11zyawn17h09z63vpm1swzf6l6cwg08swg7vkkps4w61q86",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -38,8 +29,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.30.9",
-    "sha256": "0jqw65zdm1mg0ff9dixa8z5gqf93w5j6446f9cjh3bhm8wv1rk53",
+    "rev": "v0.32.3",
+    "sha256": "00sf2hhrb9v9v8v7n45kc1x7qk58wxw6lah64pdhif6jwc2h5pz1",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
