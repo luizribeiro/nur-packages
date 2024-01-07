@@ -12,7 +12,7 @@
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
     "rev": "b85a201caef417e2c30faa6d3590444f9f4edf1f",
-    "sha256": "0pakx11zyawn17h09z63vpm1swzf6l6cwg08swg7vkkps4w61q86",
+    "sha256": "1hcgv9wglf4r49x920iflhpp8267ac767d9b12zyi6551g698rx6",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
