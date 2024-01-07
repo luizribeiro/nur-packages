@@ -1,9 +1,9 @@
-{ stdenv, pkgs, lib, ... }:
+{ stdenv, pkgs, ... }:
 
 stdenv.mkDerivation {
   name = "virtualhere-client";
 
-  meta = with lib; {
+  meta = {
     platforms = [ "x86_64-linux" "aarch64-linux" ];
   };
 

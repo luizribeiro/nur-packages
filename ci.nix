@@ -9,7 +9,7 @@
 # then your CI will be able to build and cache only those packages for
 # which this is possible.
 
-{ pkgs ? import <nixpkgs> { }, uptix ? import ./uptix.nix } @ inputs:
+{ pkgs ? import <nixpkgs> { }, uptix ? import ./uptix.nix }:
 
 with builtins;
 let

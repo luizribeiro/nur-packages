@@ -1,4 +1,4 @@
-{ uptix, pkgs, lib, rustPlatform, ... }:
+{ uptix, pkgs, rustPlatform, ... }:
 
 rustPlatform.buildRustPackage {
   name = "openscad-lsp";

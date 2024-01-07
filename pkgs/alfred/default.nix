@@ -2,7 +2,7 @@
 
 with lib;
 
-stdenv.mkDerivation rec {
+stdenv.mkDerivation {
   pname = "alfred";
   version = "4.6.1";
 

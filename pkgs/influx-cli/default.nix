@@ -6,7 +6,7 @@ let
     repo = "influx-cli";
   };
 in
-buildGoModule rec {
+buildGoModule {
   pname = "influx-cli";
   version = uptix.version release;
   src = fetchFromGitHub release;
