@@ -15,7 +15,5 @@ buildGoModule {
     homepage = "https://github.com/influxdata/influx-cli";
     description = "CLI for managing resources in InfluxDB v2";
     license = licenses.mit;
-    # FIXME: no idea why this is failing
-    broken = true;
   };
 }
