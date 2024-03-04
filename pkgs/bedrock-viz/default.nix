@@ -13,6 +13,7 @@ stdenv.mkDerivation {
 
   meta = with lib; {
     platforms = platforms.linux;
+    broken = true;
   };
 
   nativeBuildInputs = with pkgs; [
