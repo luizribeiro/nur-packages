@@ -2,8 +2,8 @@
   "$GITHUB_BRANCH$:Leathong/openscad-LSP:master$": {
     "owner": "Leathong",
     "repo": "openscad-LSP",
-    "rev": "a968de2ab283a06923aa30e103de1cc50f99712d",
-    "sha256": "0ljlinjlff6gg8r6jcrkp3y9n6y42gb3w3ny3x0gixc4qybz21wa",
+    "rev": "ebd0d900a7e5a7ee6528c1065054f61aec5eebda",
+    "sha256": "0bf5fll6hannk2bjzfirl51nqahasihr8zd1pwcyi33131pv9c89",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
@@ -12,7 +12,7 @@
     "owner": "bedrock-viz",
     "repo": "bedrock-viz",
     "rev": "b85a201caef417e2c30faa6d3590444f9f4edf1f",
-    "sha256": "1hcgv9wglf4r49x920iflhpp8267ac767d9b12zyi6551g698rx6",
+    "sha256": "0618mmnqk68s7wm5m93zxk6rjhb06lfyk1bpk5wf7gwm5js1bgnr",
     "fetchSubmodules": true,
     "deepClone": true,
     "leaveDotGit": false
@@ -29,8 +29,8 @@
   "$GITHUB_RELEASE$:dokku/dokku$": {
     "owner": "dokku",
     "repo": "dokku",
-    "rev": "v0.32.3",
-    "sha256": "00sf2hhrb9v9v8v7n45kc1x7qk58wxw6lah64pdhif6jwc2h5pz1",
+    "rev": "v0.33.7",
+    "sha256": "1a3jmamvqks1ss6wz4mbkjc7rpbcd24dlv2dqy757b32z3h80q4b",
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
