@@ -29,6 +29,11 @@ stdenv.mkDerivation {
     cd source
     git apply -p0 patches/leveldb-1.22.patch
     git apply -p0 patches/pugixml-disable-install.patch    
+    sed -i 's/#include <zlib.h>/#include <zlib.h>\n#include <cstdint>/' \
+      /build/source/third_party/leveldb/table/compressor/zlib_compressor.cc
+    sed -i 's/if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")/if (TRUE)/g' \
+      /build/source/CMakeLists.txt
+    cat /build/source/CMakeLists.txt
   '';
 
   cmakeFlags = [
