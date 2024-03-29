@@ -36,7 +36,7 @@ pkgs.appimageTools.wrapType2 {
   meta = with lib; {
     homepage = "https://github.com/bambulab/BambuStudio/";
     description = "Software for Bambu Lab 3D printers";
-    license = licenses.agpl3;
+    license = licenses.agpl3Plus;
     platforms = [ "x86_64-linux" ];
   };
 }
