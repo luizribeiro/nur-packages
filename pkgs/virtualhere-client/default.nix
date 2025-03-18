@@ -15,11 +15,11 @@ stdenv.mkDerivation {
     pkgs.fetchurl (selectSystem {
       x86_64-linux = {
         url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientx86_64";
-        sha256 = "sha256-VBpyhIlHTYJTI5A/H4b1XHNd7RgS84RFYJG8oWRqmak=";
+        sha256 = "sha256-WSq/hNqTHs2lSbl/lDs/5/G7PS+GuXdQYvXLr4j8VyA=";
       };
       aarch64-linux = {
         url = "https://www.virtualhere.com/sites/default/files/usbclient/vhclientarm64";
-        sha256 = "sha256-1p7lxAhvI954xC67pXaJ9vEEwhxg0eYKrVD6PkqIGBg=";
+        sha256 = "sha256-WV79VdTPdB/Rhgw7WoMrBcnNa6VXZ76VPDa0XOfsDFs=";
       };
     });
 
