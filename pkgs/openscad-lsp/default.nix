@@ -7,7 +7,7 @@ rustPlatform.buildRustPackage {
     repo = "openscad-LSP";
     branch = "master";
   });
-  cargoHash = "sha256-IQAqrc/Wcn8eKezMeKwlX4BCp7cYrbSoMoNDSf2lmCI=";
+  cargoHash = "sha256-/OEamj/4+8Zu/XCOtJy4tBtK6fZ6VjLg61Ir7EnCh/I=";
   meta = {
     description = "A LSP server for OpenSCAD";
     homepage = "https://github.com/Leathong/openscad-LSP";
