@@ -34,14 +34,5 @@
     "fetchSubmodules": false,
     "deepClone": false,
     "leaveDotGit": false
-  },
-  "$GITHUB_RELEASE$:influxdata/influx-cli$": {
-    "owner": "influxdata",
-    "repo": "influx-cli",
-    "rev": "v2.7.3",
-    "sha256": "18prim4bn249m9jyxqx28x5y7x364403cwqd5lh1nlaycdzzn6w5",
-    "fetchSubmodules": false,
-    "deepClone": false,
-    "leaveDotGit": false
   }
 }
