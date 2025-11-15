@@ -14,13 +14,16 @@
         "armv7l-linux"
       ];
       forAllSystems = f: nixpkgs.lib.genAttrs systems (system: f system);
-      uptix = (args.uptix.nixosModules.uptix ./uptix.lock)._module.args.uptix;
     in
     {
-      packages = forAllSystems (system: import ./default.nix {
-        pkgs = import nixpkgs { inherit system; };
-        inherit uptix;
-      });
+      packages = forAllSystems (system:
+        let
+          pkgs = import nixpkgs { inherit system; };
+          uptix = (args.uptix.nixosModules.uptix ./uptix.lock { inherit pkgs; })._module.args.uptix;
+        in
+        import ./default.nix {
+          inherit pkgs uptix;
+        });
       devShell = forAllSystems (system:
         let
           pkgs = import nixpkgs { inherit system; };
